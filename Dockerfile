@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-ENV netatalk_version 3.1.10
+ENV netatalk_version 3.1.11
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get -q -y update && \
